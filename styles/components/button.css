@@ -1,0 +1,59 @@
+.button {
+  display: inline-block;
+  margin: 0;
+  border-radius: 3px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 23px;
+  padding: 21px 37px;
+  outline: none;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  appearance: none;
+  box-shadow: 0 3px 0 #736357;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.button:hover {
+  text-decoration: none;
+}
+.button:focus {
+  outline: none;
+}
+
+.button-primary {
+  color: #ffffff;
+  background-color: #998675;
+}
+
+.button-primary:hover {
+  color: #736357;
+  background-color: #ffffff;
+  border: 1px solid #736357;
+  box-shadow: none;
+}
+.button-danger {
+  color: #ffffff;
+  background-color: red;
+}
+
+.button-danger:hover {
+  color: red;
+  background-color: #ffffff;
+  border-color: red;
+}
+
+.button-large {
+  padding: 22px 64px;
+}
+
+.button-medium {
+  padding: 12px 24px;
+}
+
+.button-full {
+  width: 100%;
+}
